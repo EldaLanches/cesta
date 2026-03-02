@@ -49,6 +49,7 @@ nome:{
     fontSize:26,
     lineHeight:42,
     fontWeight:"bold",
+    fontFamily:Montserrat_700Bold,
 },
 fazenda:{
     flexDirection:"row",
@@ -57,6 +58,7 @@ fazenda:{
 imagemFazenda:{
     width:32,
     height:32,
+    fontFamily:Montserrat_700Bold,
 },
 nomeFazenda:{
     fontSize:16,
