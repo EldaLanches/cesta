@@ -1,14 +1,14 @@
 import react from "react";
-import { StyleSheet } from "react-native";
+import { StyleSheet,Text } from "react-native";
 
 export default function Texto({children,style}){
-    let etilos = estilos.texto;
+    let estilo = estilos.texto;
 
     if(style?.fontWeight === 'bold'){
-
     }
-    return <Text style={[style,estilos]}>{children} </Text>
+    return <Text style={[style,estilo]}>{children} </Text>
 }
+
 const estilos = StyleSheet.create({
     texto:{
         fontFamily:'MontserratRegular',
